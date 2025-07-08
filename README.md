@@ -1,0 +1,2 @@
+# gachaking
+gachaking
