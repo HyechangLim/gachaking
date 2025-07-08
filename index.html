@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>QR 처리 중...</title>
+</head>
+<body>
+  <p>앱을 열고 있습니다...</p>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = urlParams.get('id');
+    if (id) {
+      window.location.href = `gachaking://qr?id=${id}`;
+    }
+  </script>
+</body>
+</html>
